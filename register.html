@@ -1,0 +1,34 @@
+
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>注册 - 原型</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="topbar">
+  <div class="nav container">
+    <div class="left"><div class="brand">品牌LOGO</div></div>
+    <div class="right"><a href="index.html">首页</a></div>
+  </div>
+</div>
+<div class="container" style="max-width:420px;padding-top:60px">
+  <div class="card">
+    <h2>注册</h2>
+    <div class="field"><label>邮箱</label><input id="em" placeholder="you@example.com"></div>
+    <div class="field"><label>密码</label><input id="pw" type="password" placeholder="至少 6 位"></div>
+    <div class="field"><button class="btn" onclick="register()">注册</button></div>
+  </div>
+</div>
+<script src="app.js"></script>
+<script>
+function register(){
+  if(!document.getElementById('em').value){ notice('请输入邮箱', false); return; }
+  if(!document.getElementById('pw').value){ notice('请输入密码', false); return; }
+  to('index.html');
+}
+</script>
+</body>
+</html>
