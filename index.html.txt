@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>品牌LOGO - 首页</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/main.js" defer></script>
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo">品牌LOGO</div>
+    <ul class="nav-links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="trade.html">交易市场</a></li>
+        <li><a href="register.html">注册</a></li>
+        <li><a href="login.html">登录</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <img src="assets/banner.jpg" alt="Banner示例图片">
+    <h1>Democratizing Markets</h1>
+    <div class="cta-buttons">
+        <button onclick="location.href='trade.html'">交易市场</button>
+        <button onclick="location.href='register.html'">注册</button>
+        <button onclick="location.href='login.html'">登录</button>
+        <button class="disabled" disabled>了解融资</button>
+    </div>
+</section>
+
+<section class="features">
+    <div class="feature-item">
+        <h2>RWA</h2>
+        <button disabled>为企业募集资金</button>
+        <button disabled>现实资产上链</button>
+    </div>
+    <div class="feature-item">
+        <h2>Trade</h2>
+        <button onclick="location.href='trade.html'">进入交易市场</button>
+    </div>
+</section>
+
+<section class="value-proposition">
+    <h2>投资机会</h2>
+    <p>提供合规、安全的数字资产投资机会。</p>
+    <h2>技术/合规优势</h2>
+    <p>先进的交易技术和合规注册保障用户权益。</p>
+</section>
+
+<section class="partners">
+    <h2>合作伙伴与信任背书</h2>
+    <p>FINRA/SEC 注册信息等</p>
+</section>
+
+<section class="cta-register">
+    <button onclick="location.href='register.html'">Register Now</button>
+</section>
+
+<footer>
+    <p>公司介绍 | 法律与隐私 | 联系方式 | 社交媒体链接</p>
+</footer>
+</body>
+</html>

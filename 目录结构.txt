@@ -1,0 +1,12 @@
+tzero_prototype/
+├─ index.html
+├─ trade.html
+├─ register.html
+├─ login.html
+├─ css/
+│    └─ style.css
+├─ js/
+│    └─ main.js
+├─ assets/
+│    ├─ banner.jpg
+│    └─ logo.png
